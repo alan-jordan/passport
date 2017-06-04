@@ -1,8 +1,8 @@
-const getGreetings = (db) => {
-  return db('greetings')
+const getUsers = (db) => {
+  return db('users')
     .select('*')
 }
 
 module.exports = {
-  getGreetings
+  getUsers
 }
